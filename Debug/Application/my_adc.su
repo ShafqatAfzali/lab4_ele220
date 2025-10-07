@@ -1,0 +1,3 @@
+../Application/my_adc.c:19:10:MyADC_ReadVrefintRaw	16	static
+../Application/my_adc.c:29:10:MyADC_ComputeVrefPlus_mV	16	static
+../Application/my_adc.c:36:6:MyADC_PrintOnce	16	static

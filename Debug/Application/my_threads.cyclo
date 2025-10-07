@@ -1,0 +1,3 @@
+../Application/my_threads.c:32:6:Idle_Thread_Func	1
+../Application/my_threads.c:45:6:Thread_Func	6
+../Application/my_threads.c:96:6:My_Threads_Init	4

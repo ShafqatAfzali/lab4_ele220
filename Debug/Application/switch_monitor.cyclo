@@ -1,0 +1,4 @@
+../Application/switch_monitor.c:30:6:SwitchMonitor	16
+../Application/switch_monitor.c:74:6:HAL_GPIO_EXTI_Callback	11
+../Application/switch_monitor.c:108:6:SwitchMonitorInit	4
+../Application/switch_monitor.c:133:18:getSwitcheventflag_id	1

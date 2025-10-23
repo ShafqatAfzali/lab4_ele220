@@ -83,7 +83,7 @@ void Thread_Func(void *arg)
 
             osSemaphoreRelease(semaphor_id);
             uint32_t now_flag = osEventFlagsGet(getSwitcheventflag_id());
-            if(now_flag){
+            if(now_flag & this_thread_props.thread_flags){
             	this_thread_props.led_active = false;
             	osEventFlagsClear(getSwitcheventflag_id(), this_thread_props.thread_flags);
             }

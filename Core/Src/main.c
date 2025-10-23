@@ -32,6 +32,8 @@
 #include "my_adc.h"
 #include "my_threads.h"
 #include "switch_monitor.h"
+#include <stdbool.h>
+
 
 
 /* USER CODE END Includes */
@@ -112,7 +114,6 @@ int main(void)
   osKernelInitialize();  /* Call init function for freertos objects (in cmsis_os2.c) */
   SwitchMonitorInit();
   My_Threads_Init(2);
-  MyPrintf("\nhello");
   MX_FREERTOS_Init();
 
   /* Start scheduler */
